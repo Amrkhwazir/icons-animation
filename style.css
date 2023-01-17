@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iconBox{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 250px;
+    background-color: rgb(11, 10, 10);
+    width: 100%;
+}
+.iBox{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 20px 20px;
+    transition: all .7s ease;
+}
+.iBox p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(33, 90, 248); 
+}
+.iBox:hover{
+    background-color:white ;
+    transform: translateY(-20px);
+}
+.icons i{
+    cursor: pointer;
+    font-size: 100px;
+    
+}
+.fa-thumbs-up{
+    color: rgb(33, 90, 248);
+    transition: all .7s ease;
+}
+.fa-thumbs-up:hover{
+
+    color: rgb(33, 90, 248);
+    transform: translateY(-25px);
+    
+}
+.fa-heart{
+    color: red;
+}
+.heartBox{
+    transition: all 1s ease-in;
+}
+.heartBox p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:red;
+}
+.heartBox:hover{
+    transform: scale(1.5);
+}
+.fa-face-smile{
+    color: gold;
+}
+.smileBox{
+    transition: all 1s linear
+}
+.smileBox p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:gold;
+}
+.smileBox:hover{
+    transform: rotate(360deg);
+}
+.fa-face-sad-tear{
+    color: yellowgreen;
+}
+.sadBox{
+    transition: all 1s ease-out
+}
+.sadBox p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:yellowgreen;
+}
+.sadBox:hover{
+    transform: scaleX(-1)
+}
+.fa-face-smile-wink{
+    color: gold;
+}
+.winkBox{
+    transition: all 1s ease
+}
+.winkBox p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:gold;
+}
+.winkBox:hover{
+    transform: translate(50px, -100px);
+}
